@@ -1,0 +1,61 @@
+li {
+    color: white;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    color: #3b3a3e;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.box-1 {
+    background: chartreuse;
+    height: 90px;
+    width: 300px;
+    
+}
+
+.box-2 {
+    background: coral;
+    height: 90px;
+    width: 300px;
+
+    
+
+    
+    
+}
+ .box-3 {
+     height: 90px;
+     width: 300px;
+     background: cornflowerblue;
+     
+  
+ }
+
+.box-4 {
+    height: 90px;
+    width: 300px;
+   background: crimson;
+}
+
+
+
