@@ -89,25 +89,25 @@ h2 {
 
 .Horiseon {
     color: white;
-    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/horiseon.png")
+    background: url("../Images/horiseon.png")
 }
 
 .led-wall {
     color: white ;
-    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/led-wall.jpeg")
+    background: url("../Images/led-wall.jpeg")
 }
 
 .calculator {
-    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/calculator.jpeg")
+    background: url("../Images/calculator.jpeg")
 }
 
 .pastel-puzzle {
-    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/pastel-puzzle.jpeg")
+    background: url("../Images/pastel-puzzle.jpeg")
 }
 
 .run-buddy {
     color: white;
-    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/run-buddy.jpeg")
+    background: url("../Images/run-buddy.jpeg")
 }
 
 
