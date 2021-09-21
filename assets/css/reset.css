@@ -11,40 +11,5 @@ body {
 }
 
 
-ol, ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-nav {
-    background: #222;
-    padding: 0 15px;
-}
 
-a {
-    color: white;
-}
-
-.logo {
-    font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
-
-}
-
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flex-container li a {
-    display: block;
-    padding: 15px 5px;
-
-}
-
-.item {
-    align-items: center;
-}
