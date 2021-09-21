@@ -6,6 +6,10 @@ body, html {
     height: 100%;
 }
 
+h2 {
+    font-size: 28px;
+}
+
 .hero-image {
     background-image:
     url("https://www.techrepublic.com/a/hub/i/r/2021/02/17/3c192f18-47eb-428a-b64f-ba57fcd3c36a/resize/770x/f6331a1067a7b7fa04ef225a6493d63e/programming-coding.jpg");
@@ -25,6 +29,11 @@ body, html {
     color:black;
 }
 
+.about {
+    display: flex;
+    justify-content: right;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr );
@@ -32,15 +41,42 @@ body, html {
 }
 
 .grid-container > div {
-    height: 210px;
-    background: url("https://media.istockphoto.com/vectors/calculator-vector-id531633071?k=20&m=531633071&s=612x612&w=0&h=mEZntyKX_pFEupTpZLV9-asMCkGJk-uA8L0PUEpG-BQ=");
+    height: 150px;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+} 
+
+.grid-container .Horiseon {
+    grid-column: 1/5;
+
 }
 
+.Horiseon {
+    color: white;
+    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/screen-shot.png")
+}
 
+.led-wall {
+    color: white ;
+    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/led-wall.jpeg")
+}
 
+.calculator {
+    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/calculator.jpeg")
+}
 
+.pastel-puzzle {
+    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/pastel-puzzle.jpeg")
+}
+
+.run-buddy {
+    color: white;
+    background: url("/Users/ismeny/Desktop/Bootcamp/Homework/Homework-2-Professional-Portfolio/assets/Images/run-buddy.jpeg")
+}
 
 
 
