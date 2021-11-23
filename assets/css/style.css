@@ -1,114 +1,53 @@
+body {
+    background-color: #826E91;
+    color:white;
+    height: 100%
 
-body, html {
-    height: 100%;
 }
-
-nav {
-    background: #222;
-    padding: 0 15px;
+.top-nav {
+    padding:12px;
+    border: 8px;
+    margin-bottom: auto;
+    background-color: #DED7F5;
 }
-
-a {
-    color: white;
+p {
+    color:black;
 }
-
-ol, ul {
+ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
-
 li {
-    color: white;
+    display: inline;
+    
 }
-
-.logo {
-    font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
-
-}
-
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-
-.flex-container li a {
-    display: block;
-    padding: 15px 5px;
-
-}
-
-
-
-h2 {
-    font-size: 28px;
-}
-
-.hero-image {
-    background-image:
-    url("https://www.techrepublic.com/a/hub/i/r/2021/02/17/3c192f18-47eb-428a-b64f-ba57fcd3c36a/resize/770x/f6331a1067a7b7fa04ef225a6493d63e/programming-coding.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-text {
+.center-text {
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:black;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr );
-    grid-gap: 10px;
-}
-
-.grid-container > div {
-    height: 150px;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-} 
-
-.grid-container .Horiseon {
-    grid-column: 1/5;
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 400px;
+    max-height: 400px;
+    text-align: left;
+    background: #DED7F5;
+    border-bottom: 10px solid #781299;
+    border-radius: 6px;
+    transition: all .5s;
+    top: 100px;
 
 }
 
-.Horiseon {
-    color: white;
-    background: url("../Images/horiseon.png")
+#header-img {
+    width:100vw;
+    height: 300px;
+    object-fit: cover;
 }
-
-.cosmos {
-    color: white ;
-    background: url("../Images/homepg.png")
-}
-
-.script-doctors {
-    background: url("../Images/loginpage.png")
-}
-
-.pastel-puzzle {
-    background: url("../Images/pastel-puzzle.jpeg")
-}
-
-.run-buddy {
-    color: white;
-    background: url("../Images/run-buddy.jpeg")
-}
-
 
 

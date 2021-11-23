@@ -1,94 +1,78 @@
-<!DOCtype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    
-    <title>My Profesional Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismeny's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- <header> 
-        <nav> 
-            <ul class="flex-container">
-                <li class="logo"><a href="#">Ismeny Saguilan</a></li>
-                <li><a href="#about"> About Me</a></li>
-                <li><a href="#work"> Work</a></li>
-                <li><a href="#contact"> Contact Me</a></li>
-            </ul>
-        </nav>
-    </header> -->
-
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
-          </ul>
-        </div>
-      </nav>
-            
-
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1>My Portfolio</h1>
-        </div>
+    <nav class='top-nav'>
+        <ul class='flex-container'>
+            <li><a href="#about"> About Me </a></li>
+            <li><a href="#projects"> Projects </a></li>
+            <li><a href="#contact"> Contact Me </a></li>
+        </ul>
+    </nav>
+    <header class='center-text'>
+        <img id='header-img' src="https://www.udr.com/globalassets/markets/austin/austin_marketheader_1900x617_austintx-skyline.jpg">
+        <h1>Hello, I'm Ismeny Saguilan</h1>
+        <p>I live in Austin, Texas!</p>
+    </header>
+    <div id='about'>
+        <h2>About Me</h2>
+        <p>I'm currently a full time student in Coding Bootcamp at the University of Texas at Austin. My expected graduation date is December 7th, 2021. I'm new to the tech field and excited to learn more about web development and pursue a career as a full stack web developer. </p>
     </div>
-
-
-    <div id="about" class="about-flex">
-        <h3>About Me</h3>
-            <p>
-                I'm a full time student in Coding Bootcamp!
-            </p>
-    </div>
-
-    <div id="work">
-        <h3>Work</h3>
-        <div class="grid-container">
-            <a href="file:///Users/ismeny/Desktop/Bootcamp/Homework/Homework-1-HTML-Refactor/index.html">Horiseon</a>
-        <div class="Horiseon">  
-            <h2>Horiseon</h2>
-            <p>MERN Stack</p>
+    <div id='projects'>
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima atque vitae, facere, aliquid minus nulla repellat dolorum beatae excepturi dignissimos. Nulla perspiciatis ipsum quos commodi labore similique vero itaque? </p>
+        <div class='flex-container'>
+            <div class="card">  
+            <h4>Crypto Cosmos</h4>
+            <p>HTML, CSS, JavaScript</p>
+            <br>
+            <a href='https://cole-cochran.github.io/crypto-cosmos/' class="crypto-cosmos" target="_blank">Click to view</a>
             </div>
-    
-    <div class="cosmos">  
-        <h2>Crypto Cosmos</h2>
-        <p>HTML, CSS, JavaScript</p>
-        </div>
-    
-       <div class="script-doctors">  
-        <h2>Script Doctors</h2>
-        <p>Full Stack</p>
-        </div>
-    
-    <div class="pastel-puzzle">  
-        <h2>Pastel Puzzle</h2>
-        <p>MERN Stack</p>
-        </div>
-
-        <div class="run-buddy">  
-            <h2>Run Buddy</h2>
-            <p>HTML/CSS</p>
+            <div class="card">
+                <h4>Script Doctors</h4>
+                <p>HTML, CSS, JavaScript, Express, Node.js, Sequelize</p>
+                <br>
+            <a href='https://project2-group8.herokuapp.com/login' class="script-doctors" target="_blank">Click to view</a>
             </div>
+            <div class="card">
+                <h4>COMING SOON</h4>
+                <p>MERN Stack</p>
+                <br>
+            <a href='#' class="linkedin" target="_blank">Click to view</a>
+            </div>
+        </div>
     </div>
-
-    <footer id="contact">
-        <nav>
-            <ul class="flex-container">
-                <li class="logo"><h3>Contact Me</h3></li>
-                <li>555.555.5555</li>
-                <li><a href="mailto:menysag2@gmail.com">menysag2@gmail.com</a></li>
-                <li><a href="https://github.com/Ismeny" target="_blank">GitHub</a></li>
-            </ul>
-        </nav>
+    <div id='skills'>
+        <h2 align="left">Languages and Tools:</h2>
+            <p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
+    </div>
+    <div id='contact'>
+        <h2>Contact Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum accusamus, consequuntur libero totam nostrum fuga quo debitis hic fugit voluptatibus, qui beatae molestias? Nobis et illo veniam. Ducimus, voluptatum alias!</p>
+    </div>
+    <footer >
+        <ul class='flex-container'>
+            <li><a href='https://www.linkedin.com/in/ismeny-saguilan-b8b32821b/' class="linkedin" target="_blank">LinkedIn</a></li>
+            <li><a href='https://github.com/Ismeny' class="linkedin" target="_blank">Github</a></li>
+            <li><a href='https://twitter.com/IsmenySaguilan' class="linkedin" target="_blank">Twitter</a></li>
+            <li><a href="mailto:menysag2@gmail.com">Email Me</a></li>
+        </ul>
+        <br>
+        <h5 class='center-text'> Copyright &copy 2021 Ismeny Saguilan</h5>
     </footer>
 </body>
+</html>
 
-</html
+
+
+
