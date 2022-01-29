@@ -13,7 +13,7 @@ This projects has a responsive layout that adapts to the viewport.
 * Test
 
 ## Installation
-Go to URL : ***https://ismeny.github.io/Homework-2-Professional-Portfolio/***
+Go to URL : ***https://ismeny.github.io/Professional-Portfolio/***
 
 ![Screenshot](assets/images/second-portfolio.png)
 
