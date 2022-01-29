@@ -1,4 +1,4 @@
-# Homework-2-Professional-Portfolio
+# Professional-Portfolio
 
 ## Description
 This projects has a responsive layout that adapts to the viewport.
